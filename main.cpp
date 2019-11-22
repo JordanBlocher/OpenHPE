@@ -9,6 +9,10 @@ using namespace cv;
 using namespace std;
 
 #include "tnc.h"
+#include "/usr/include/opencv2/videoio.hpp"
+#include "/usr/include/opencv2/imgproc.hpp"
+#include "/usr/include/opencv2/highgui.hpp"
+#include "/usr/include/opencv2/viz/vizcore.hpp"
 
 double rad_to_deg = 180.0 / CV_PI;
 
